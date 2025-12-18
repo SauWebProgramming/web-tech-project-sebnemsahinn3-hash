@@ -22,7 +22,7 @@ SineArşiv, en güncel sinema verilerini (2023-2025) kullanıcıya sunan, hız v
 
 ## 🛠️ Teknik Altyapı (Tech Stack)
 
-Proje, hocanın belirlediği tüm modern web standartlarına uygun olarak kodlanmıştır:
+Proje, belirlenen tüm modern web standartlarına uygun olarak kodlanmıştır:
 
 * **HTML5 & CSS3:** Semantik etiket yapısı (`<article>`, `<section>`) ve Responsive Grid sistemleri.
 * **JavaScript (ES6+):** Arrow functions, `async/await` mimarisi ve `fetch` API kullanımı.
@@ -39,4 +39,5 @@ Proje, hocanın belirlediği tüm modern web standartlarına uygun olarak kodlan
 ├── 📄 style.css     <-- Modern Dark Theme ve Grid layout
 ├── 📄 app.js        <-- SPA mantığı ve API operasyonları
 ├── 📄 data.json     <-- Medya veritabanı (Özet/Puan/Oyuncu)
+
 └── 📁 img           <-- Yüksek çözünürlüklü film afişleri
