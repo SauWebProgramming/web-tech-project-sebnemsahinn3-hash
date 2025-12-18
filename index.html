@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SineArşiv | Medya Kitaplığı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">SineArşiv</h1>
+            <ul id="menu">
+                <li><a href="#" id="ana-sayfa">Ana Sayfa</a></li>
+                <li><a href="#" id="favoriler">Favorilerim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="filtre-alani">
+            <div id="arama-konteynir">
+                <input type="text" id="arama-kutusu" placeholder="Film veya tür ara...">
+            </div>
+            <div id="kategori-butonlari">
+                <button class="filtre-btn" onclick="turFiltrele('hepsi')">Hepsi</button>
+                <button class="filtre-btn" onclick="turFiltrele('Bilim Kurgu')">Bilim Kurgu</button>
+                <button class="filtre-btn" onclick="turFiltrele('Aksiyon')">Aksiyon</button>
+                <button class="filtre-btn" onclick="turFiltrele('Dram')">Dram</button>
+                <button class="filtre-btn" onclick="turFiltrele('Korku')">Korku</button>
+            </div>
+        </section>
+        
+        <section id="medya-listesi">
+            </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
